@@ -1,3 +1,8 @@
+# Our questions
+
+* Why does the API not return any results? Can you make it return all Items?
+* Can you exclude "createdBy" from the API results?
+
 # Summary
 This is a starter project that is a great place to start handling a lot of the boilerplate of starting a new API project.
 

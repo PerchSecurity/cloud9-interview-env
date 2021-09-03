@@ -6,7 +6,7 @@ from .serializers import ItemSerializer
 
 
 class ItemViewSet(ModelViewSet):
-    queryset = Item.objects.all()
+    queryset = Item.objects.filter(id=-1)
     serializer_class = ItemSerializer
     permission_classes = [IsAuthenticated]
 
